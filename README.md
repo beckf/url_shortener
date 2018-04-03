@@ -5,13 +5,16 @@ This is a simple php project that will allow you to run a URL shortener using yo
 
 ### Setup Apache
 
-Insert to Apache: \
+Insert to Apache:
+
+
 ```<Directory "/path/to/url/dir"> 
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteRule . redirect.php [L] 
 </Directory>```
+
 
 This will redirect anything not found in directory to redirect.php which will check the SQL database.
 
