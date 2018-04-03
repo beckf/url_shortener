@@ -8,7 +8,8 @@ This is a simple php project that will allow you to run a URL shortener using yo
 Insert to Apache:
 
 
-```<Directory "/path/to/url/dir"> 
+```
+<Directory "/path/to/url/dir"> 
 	RewriteEngine on 
 	RewriteCond %{REQUEST_FILENAME} !-d 
 	RewriteCond %{REQUEST_FILENAME} !-f 
