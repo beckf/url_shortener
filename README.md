@@ -13,7 +13,8 @@ Insert to Apache:
 	RewriteCond %{REQUEST_FILENAME} !-d 
 	RewriteCond %{REQUEST_FILENAME} !-f 
 	RewriteRule . redirect.php [L] 
-</Directory>```
+</Directory>
+```
 
 
 This will redirect anything not found in directory to redirect.php which will check the SQL database.
