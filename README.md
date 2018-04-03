@@ -9,10 +9,10 @@ Insert to Apache:
 
 
 ```<Directory "/path/to/url/dir"> 
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteRule . redirect.php [L] 
+	RewriteEngine on 
+	RewriteCond %{REQUEST_FILENAME} !-d 
+	RewriteCond %{REQUEST_FILENAME} !-f 
+	RewriteRule . redirect.php [L] 
 </Directory>```
 
 
