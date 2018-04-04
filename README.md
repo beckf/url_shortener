@@ -5,7 +5,7 @@ This is a simple php project that will allow you to run a URL shortener using yo
 
 ### Setup Apache
 
-Insert to Apache:
+Insert into Apache httpd.conf or .htaccess:
 
 
 ```
