@@ -26,3 +26,10 @@ allowedGroups = CN of group that should be allowed access URLs \
 host = hostname part of shorturl \
 ad_domain = domain name of active directory domain to authenticate to 
 
+### Setup Database
+```
+mysql -u user -p password localhost
+>> create database url_redirect;
+>> use url_redirect;
+>> source url_redirect_db_schema.sql;
+```
