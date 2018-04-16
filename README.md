@@ -35,7 +35,7 @@ mysql -u user -p password localhost
 >> source url_redirect_db_schema.sql;
 ```
 
-Be sure to delete the schema once it is imported. \
+Be sure to delete the schema once it is imported.
 ```
 rm url_redirect_db_schema.sql
 ```
