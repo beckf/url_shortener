@@ -8,5 +8,6 @@ $ldapServer = "ldap.domain.tld";
 $allowedGroups = array("CN=FacultyStaff,OU=Groups,DC=domain,DC=tld");
 $host = "tinyurlhostname.domain.tld";
 $ad_domain = "ad.domain.tld";
+$missingRedirectSite = "http://www.github.com";
 
 ?>

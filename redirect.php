@@ -14,6 +14,6 @@ if($redirect["redirect"]) {
     $eventLog->execute(array($redirect["redirect"], $redirect["id"], $_SERVER["REMOTE_ADDR"], $_SERVER["HTTP_REFERER"], $_SERVER["HTTP_USER_AGENT"], $browser->browser));
     header('Location: ' . $redirect["redirect"]);
 } else {
-    header('Location: http://www.github.com');
+    header('Location: ' . $missingRedirectSite);
 }
 ?>

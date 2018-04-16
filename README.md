@@ -24,7 +24,8 @@ This will redirect anything not found in directory to redirect.php which will ch
 ldapServer = ip address/hostname of ldap server \
 allowedGroups = CN of group that should be allowed access URLs \
 host = hostname part of shorturl \
-ad_domain = domain name of active directory domain to authenticate to 
+ad_domain = domain name of active directory domain to authenticate to \
+missingRedirectSite = site to redirect to if not found in db
 
 ### Setup Database
 ```
